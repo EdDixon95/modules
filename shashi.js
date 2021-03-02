@@ -3,3 +3,5 @@ function hello () {
 }
 
 hello()
+
+let x = 5;
