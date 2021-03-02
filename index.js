@@ -11,7 +11,7 @@ function fibo(n){
 }
 
 function fibonacci(x){
-    for (i=1; i<=x; i++){
+    for (let i=1; i<=x; i++){
         console.log(fibo(i))
     }
 }
