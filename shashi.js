@@ -1,7 +1,5 @@
-function hello () {
-  console.log('hello')
-}
+// eslint-disable-next-line semi
+import * as fib from './index.js';
 
-hello()
 
-let x = 5;
+fib.fibonacci(5);

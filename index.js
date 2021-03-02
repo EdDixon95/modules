@@ -1,4 +1,4 @@
-function fibo(n){
+export function fibo(n){
     if (n===0){
         return 0
     }
@@ -10,9 +10,8 @@ function fibo(n){
     }
 }
 
-function fibonacci(x){
-    for (i=1; i<=x; i++){
+export function fibonacci(x){
+    for (let i=1; i<=x; i++){
         console.log(fibo(i))
     }
 }
-fibonacci(10)
